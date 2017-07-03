@@ -1,0 +1,28 @@
+footer {
+  margin-top: 4em;
+  background: $black;
+  padding: 2em 0 1.5em;
+  color: $gray-light;
+  text-align: center;
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+}
+
+.social-links {
+  @include media-breakpoint-up(lg) {
+    text-align: right;
+  }
+}
+
+.social-link:not(:first-of-type)::before {
+  content: '/';
+  display: inline-block;
+  color: rgba($gray-light, 0.4);
+}
+
+.social-link a {
+  color: $gray-light;
+  display: inline-block;
+  margin: 0 0.5em 0 0.7em;
+}

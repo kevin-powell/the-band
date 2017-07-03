@@ -1,0 +1,17 @@
+body {
+  padding-top: 96px; // the height of my navbar
+  font-family: $sans;
+  font-weight: $light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font
+}
+
+h1 {
+  color: $brand-primary;
+}
+
+.lead {
+  margin-bottom: 1.5em;
+}
